@@ -13,7 +13,7 @@ export default function DataTypeView() {
 
 		// const content = Info == Info2 //==> false Symbol data is different
 
-		setSymbolText(`content diff is ${content},type diff is ${typeDiff}`)
+		setSymbolText(`type diff is ${typeDiff}`)
 	}
 
 	return (
