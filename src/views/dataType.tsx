@@ -11,7 +11,7 @@ export default function DataTypeView() {
 	const setText = ()=>{
 		const typeDiff = (typeof Info == typeof Info2) // ==> true same Symbol type
 
-		const content = Info == Info2 //==> false Symbol data is different
+		// const content = Info == Info2 //==> false Symbol data is different
 
 		setSymbolText(`content diff is ${content},type diff is ${typeDiff}`)
 	}

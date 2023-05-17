@@ -12,6 +12,8 @@ import '@fontsource/roboto/700.css';
 import './main.scss'
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <RouterProvider router={routes}/>
+    <div className='app'>
+      <RouterProvider router={routes} />
+    </div>
   </React.StrictMode>
 )
